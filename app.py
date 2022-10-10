@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.vars={}
 
 slack_message_token = []
-BOT_USER_TOKEN = os.environ['BOT_USER_TOKEN']
+#BOT_USER_TOKEN = os.environ['BOT_USER_TOKEN']
 CLIENT_SIDE_URL = "http://127.0.0.1"
 SERVER_SIDE_URL = "https://learning-afternoon.herokuapp.com/"
 PORT = 8080
